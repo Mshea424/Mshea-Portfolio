@@ -5,6 +5,17 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
+@media only screen and (max-width: 768px) {
+    #wrapper {
+      border: 4px solid lightblue;
+    }
+  }
+
+@media only screen and (max-width: 375px) {
+#wrapper {
+    border: 4px solid yellow;
+    }
+}
 .nav-bar {
     display: flex;
     height: 50px;
@@ -26,7 +37,7 @@ h1 {
     text-align: center;
     line-height: 45px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
     color: gray;
     
@@ -35,4 +46,15 @@ h1 {
     height: 54px;
     box-shadow: 5px 5px 5px lightgray ;
     color: red;
+}
+
+#card {
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px lightgray ;
 }
