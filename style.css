@@ -5,9 +5,34 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
-.navbar {
-    display: block;
-    background-color: gray;
+.nav-bar {
+    display: flex;
     height: 50px;
     width: 100%;
+    border-radius: 4px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px lightgray ;
+}
+
+.nav-tab {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: gray;
+    
+}
+.nav-tab:hover {
+    height: 54px;
+    box-shadow: 5px 5px 5px lightgray ;
+    color: red;
 }
