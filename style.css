@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+#wrapper {
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar {
+    display: block;
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+}
