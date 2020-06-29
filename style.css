@@ -39,15 +39,59 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: white;
-    
+    color: white;  
+    border-radius: 4px;
 }
 .nav-tab:hover {
     height: 48px;
     color: red;
     background-color: whitesmoke;
     border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 4px;
 }
+.left-tab-active {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    color: darkslategray;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300; 
+    border-top-right-radius: 4px;
+}
+.middle-tab-active {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    color: darkslategray;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300; 
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.right-tab-active {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    color: darkslategray;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300; 
+    border-top-left-radius: 4px;
+}
+
 
 #card {
     height: 500px;
