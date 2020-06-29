@@ -1,9 +1,13 @@
+body {
+    background-color: darkgray;
+}
 h1 {
     color: red;
 }
 #wrapper {
-    margin: 0 auto;
-    padding: 20px;
+    margin: 20px;
+    background-color: whitesmoke;
+    max-width: 1200px;
 }
 @media only screen and (max-width: 768px) {
     #wrapper {
@@ -18,43 +22,64 @@ h1 {
 }
 .nav-bar {
     display: flex;
-    height: 50px;
+    height: 54px;
     width: 100%;
-    border-radius: 4px;
-    background-color: lightgray;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 5px 5px 5px lightgray ;
+    background-color: black;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .nav-tab {
     display: inline-block;
     height: 50px;
     width: 25%;
-    background-color: whitesmoke;
-    border: 1px solid lightgray;
-    border-radius: 4px;
+    background-color: black;
     text-align: center;
     line-height: 45px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: gray;
+    color: white;
     
 }
 .nav-tab:hover {
-    height: 54px;
-    box-shadow: 5px 5px 5px lightgray ;
+    height: 48px;
     color: red;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
 }
 
 #card {
     height: 500px;
     width: 100%;
     background-color: whitesmoke;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-    border-radius: 4px;
-    box-shadow: 5px 5px 5px lightgray ;
+}
+
+#about {
+    display: block;
+}
+
+#skills {
+    display: none;
+    height:446px;
+    width: 100%;
+    padding: 20px;
+}
+
+#projects {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
+
+#headshot {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 75px;
+    background-image: url("images/headshot.jpg");
+    background-size: cover;
 }
