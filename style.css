@@ -106,6 +106,7 @@ h1 {
 #skills {
     display: none;
     flex-direction: column;
+    justify-content: space-evenly;
     height:446px;
     width: 100%;
 }
@@ -130,10 +131,30 @@ h1 {
 
 #projects {
     display: none;
+    flex-direction: column;
+    height:446px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.projects-row {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border: 1px solid pink;
+}
+
+.projects-item {
+    height: 100%px;
+    width: 50%;
+    border: 1px solid blue;
+    padding: 20px;    
 }
 
 #contact {
     display: none;
+    height:446px;
+    width: 100%;
 }
 
 #headshot {

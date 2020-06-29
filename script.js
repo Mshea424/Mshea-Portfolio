@@ -30,7 +30,7 @@ document.querySelector(`#skills-tab`).addEventListener(`click`, () => {
     document.querySelector(`#contact`).style.display = `none`;
     document.querySelector(`#contact-tab`).className = `nav-tab`;
     
-    document.querySelector(`#projects`).style.display = `block`;
+    document.querySelector(`#projects`).style.display = `flex`;
     document.querySelector(`#projects-tab`).className = `middle-tab-active`
 })
 
