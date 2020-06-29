@@ -61,9 +61,27 @@ h1 {
 
 #skills {
     display: none;
+    flex-direction: column;
     height:446px;
     width: 100%;
-    padding: 20px;
+}
+
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    width: 100%;
+    border: 1px solid pink;
+}
+
+.skills-item {
+    display: block;
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 30px;
 }
 
 #projects {
