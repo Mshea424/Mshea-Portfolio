@@ -45,3 +45,35 @@ document.querySelector(`#skills-tab`).addEventListener(`click`, () => {
     document.querySelector(`#contact`).style.display = `block`;
     document.querySelector(`#contact-tab`).className = `right-tab-active`
 })
+
+document.querySelector(`#ts-card`).addEventListener(`mouseover`, () => { 
+    document.querySelector(`#ts-link`).style.display = `flex`; 
+})
+
+document.querySelector(`#ts-card`).addEventListener(`mouseout`, () => { 
+    document.querySelector(`#ts-link`).style.display = `none`; 
+})
+
+document.querySelector(`#lit-card`).addEventListener(`mouseover`, () => { 
+    document.querySelector(`#lit-link`).style.display = `flex`; 
+})
+
+document.querySelector(`#lit-card`).addEventListener(`mouseout`, () => { 
+    document.querySelector(`#lit-link`).style.display = `none`; 
+})
+
+document.querySelector(`#pcb-card`).addEventListener(`mouseover`, () => { 
+    document.querySelector(`#pcb-link`).style.display = `flex`; 
+})
+
+document.querySelector(`#pcb-card`).addEventListener(`mouseout`, () => { 
+    document.querySelector(`#pcb-link`).style.display = `none`; 
+})
+
+document.querySelector(`#trcs-card`).addEventListener(`mouseover`, () => { 
+    document.querySelector(`#trcs-link`).style.display = `flex`; 
+})
+
+document.querySelector(`#trcs-card`).addEventListener(`mouseout`, () => { 
+    document.querySelector(`#trcs-link`).style.display = `none`; 
+})

@@ -140,16 +140,87 @@ h1 {
 
 .projects-row {
     display: flex;
-    height: 200px;
+    height: 220px;
     width: 100%;
-    border: 1px solid pink;
 }
 
 .projects-item {
-    height: 100%px;
+    height: 210px;
     width: 50%;
-    border: 1px solid blue;
-    padding: 20px;    
+    border: 1px solid lightgray;
+    margin: 5px;
+    box-shadow: 5px 5px 5px lightgray; 
+}
+
+.projects-item:hover {
+    background-color: white;
+}
+
+.project-title {
+    margin: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.project-link {
+    height: 120px;
+    width: 180px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#toolshed-thumbnail {
+    display: block;
+    height: 120px;
+    width: 180px;
+    margin: auto 20px;
+    border: 1px solid black;
+    background-image: url(./images/toolshed_thumbnail.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#lit-thumbnail {
+    display: block;
+    height: 120px;
+    width: 180px;
+    margin: auto 20px;
+    border: 1px solid black;
+    background-image: url(./images/lit_thumbnail.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#pcb-thumbnail {
+    display: block;
+    height: 120px;
+    width: 180px;
+    margin: auto 20px;
+    border: 1px solid black;
+    background-image: url(./images/pcbuilder_thumbnail.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#trcs-thumbnail {
+    display: block;
+    height: 120px;
+    width: 180px;
+    margin: auto 20px;
+    border: 1px solid black;
+    background-image: url(./images/trcs_thumnail.png);
+    background-position: center;
+    background-size: cover;
 }
 
 #contact {
@@ -162,7 +233,6 @@ h1 {
     display: block;
     height: 150px;
     width: 150px;
-    margin: 40px;
     border: 2px solid black;
     border-radius: 75px;
     background-image: url("images/headshot.jpg");
