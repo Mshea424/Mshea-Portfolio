@@ -1,4 +1,19 @@
+function dash() {
+    // console.log('dash')
+    // console.log(document.querySelector(`#logo1`).style.display)
+    if (document.querySelector(`#logo1`).style.display != `none`) {
+        // console.log('toggle1')
+        document.querySelector(`#logo1`).style.display = `none`
+        document.querySelector(`#logo2`).style.display = `block`
+    } else { 
+        // console.log('toggle2')
+        document.querySelector(`#logo1`).style.display = `block`
+        document.querySelector(`#logo2`).style.display = `none`
+    }
+    
+}
 
+window.setInterval(dash, 600, '#logo1');
 
 document.querySelector(`#about-tab`).addEventListener(`click`, () => { 
     document.querySelector(`#skills`).style.display = `none`;
@@ -79,3 +94,5 @@ document.querySelector(`#trcs-card`).addEventListener(`mouseover`, () => {
 document.querySelector(`#trcs-card`).addEventListener(`mouseout`, () => { 
     document.querySelector(`#trcs-link`).style.display = `none`; 
 })
+
+
