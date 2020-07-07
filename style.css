@@ -3,7 +3,11 @@ body {
 }
 
 h1 {
-    color: red;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 #wrapper {
@@ -144,6 +148,16 @@ h1 {
     height:446px;
     width: 100%;
     padding: 30px;
+}
+
+#headshot {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 75px;
+    background-image: url("images/headshot.jpg");
+    background-size: cover;
 }
 
 #about-content {
@@ -293,14 +307,104 @@ h1 {
     display: none;
     height:446px;
     width: 100%;
+    flex-direction: row;
 }
 
-#headshot {
+
+#github-link {
+    display: block;
+    height: 40px;
+    width: 150px;
+    background-image: url(./images/github_link.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#github-link:hover {
+    height: 44px;
+    width: 158px;
+}
+
+#linkedin-link {
+    display: block;
+    height: 26px;
+    width: 125px;
+    background-image: url(./images/linkedin_link.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#linkedin-link:hover {
+    height: 30px;
+    width: 150px;
+}
+
+#email-link {
+    margin: 10px auto;
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#email-logo {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    background-image: url(./images/email_link.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#phone-link {
+    margin: 10px auto;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#phone-logo {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    background-image: url(./images/phone_link.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#resume-logo {
+    margin: 80px auto;
+    display: block;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    background-image: url(./images/resume-logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-column {
+    display: block;
+    width: 50%;
+}
+
+.contact-row {
     display: block;
     height: 150px;
-    width: 150px;
-    border: 2px solid black;
-    border-radius: 75px;
-    background-image: url("images/headshot.jpg");
-    background-size: cover;
+}
+
+.contact-row-flex {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-evenly;
 }
