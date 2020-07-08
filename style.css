@@ -32,7 +32,7 @@ h1 {
     display: flex;
     height: 54px;
     width: 100%;
-    background-color: black;
+    background-color: darkgray;
     align-items: flex-end;
     justify-content: space-between;
 }
@@ -41,11 +41,11 @@ h1 {
     display: inline-block;
     height: 50px;
     width: 25%;
-    background-color: black;
+    background-color: darkgray;
     text-align: center;
     line-height: 45px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     color: white;  
     border-radius: 4px;
@@ -53,11 +53,11 @@ h1 {
 
 .nav-tab:hover {
     height: 48px;
-    color: red;
+    color: black;
     background-color: whitesmoke;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-bottom: 2px solid darkgray;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
     border-radius: 4px;
 }
 
@@ -152,22 +152,23 @@ h1 {
 
 #headshot {
     display: block;
-    height: 150px;
-    width: 150px;
-    border: 2px solid black;
-    border-radius: 75px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
     background-image: url("images/headshot.jpg");
     background-size: cover;
+    box-shadow: 0px 10px 10px lightgray; 
 }
 
 #about-content {
     display: block;
-    margin-left: 0;
+    margin: 0 80px;
     padding-right: 60px;
     font-family: 'Roboto', sans-serif;
     text-indent: 50px;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     text-align: justify;
 }
