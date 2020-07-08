@@ -14,6 +14,7 @@ h1 {
     margin: 20px;
     background-color: whitesmoke;
     max-width: 1200px;
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -108,7 +109,9 @@ h1 {
     display: block;
     width: 400px;
     height: 80px;
-    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(./images/hello_world1.png);
     background-position: center;
     background-size: cover;
@@ -118,7 +121,9 @@ h1 {
     display: none;
     width: 400px;
     height: 80px;
-    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(./images/hello_world2.png);
     background-position: center;
     background-size: cover;
