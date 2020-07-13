@@ -221,7 +221,7 @@ h1 {
     width: 50%;
     border: 1px solid lightgray;
     margin: 5px;
-    box-shadow: 5px 5px 5px lightgray; 
+    box-shadow: 0px 10px 10px lightgray; 
 }
 
 .projects-item:hover {
@@ -229,8 +229,7 @@ h1 {
 }
 
 .project-title {
-    margin: 15px;
-    text-align: center;
+    margin: 15px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -252,7 +251,7 @@ h1 {
 }
 
 .project-link {
-    height: 120px;
+    height: 210px;
     width: 180px;
     display: none;
     align-items: center;
@@ -267,10 +266,9 @@ h1 {
 
 #toolshed-thumbnail {
     display: block;
-    height: 120px;
+    height: 210px;
     width: 180px;
     margin: auto 20px;
-    border: 1px solid black;
     background-image: url(./images/toolshed_thumbnail.png);
     background-position: center;
     background-size: cover;
@@ -278,10 +276,9 @@ h1 {
 
 #lit-thumbnail {
     display: block;
-    height: 120px;
+    height: 210px;
     width: 180px;
     margin: auto 20px;
-    border: 1px solid black;
     background-image: url(./images/lit_thumbnail.png);
     background-position: center;
     background-size: cover;
@@ -289,10 +286,9 @@ h1 {
 
 #pcb-thumbnail {
     display: block;
-    height: 120px;
+    height: 210px;
     width: 180px;
     margin: auto 20px;
-    border: 1px solid black;
     background-image: url(./images/pcbuilder_thumbnail.png);
     background-position: center;
     background-size: cover;
@@ -300,10 +296,9 @@ h1 {
 
 #trcs-thumbnail {
     display: block;
-    height: 120px;
+    height: 210px;
     width: 180px;
     margin: auto 20px;
-    border: 1px solid black;
     background-image: url(./images/trcs_thumnail.png);
     background-position: center;
     background-size: cover;
@@ -388,14 +383,14 @@ h1 {
 }
 
 #resume-logo {
-    margin: 80px auto;
+    margin: 40px auto;
     display: block;
-    height: 200px;
+    height: 300px;
     width: 300px;
-    border: 1px solid black;
     background-image: url(./images/resume-logo.png);
     background-position: center;
     background-size: cover;
+    box-shadow: 0px 10px 10px lightgray; 
 }
 
 .contact-column {
