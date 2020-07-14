@@ -48,7 +48,8 @@ document.querySelector(`#skills-tab`).addEventListener(`click`, () => {
     document.querySelector(`#contact-tab`).className = `nav-tab`;
     
     document.querySelector(`#projects`).style.display = `flex`;
-    document.querySelector(`#projects-tab`).className = `middle-tab-active`
+    document.querySelector(`#projects-tab`).className = `middle-tab-active`;
+    document.querySelector(`#card`).style.height = `800px`
 })
 
  document.querySelector(`#contact-tab`).addEventListener(`click`, () => { 

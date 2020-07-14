@@ -207,6 +207,7 @@ h1 {
     flex-direction: column;
     height:446px;
     width: 100%;
+    margin-top: 20px;
     justify-content: space-evenly;
 }
 
@@ -248,6 +249,10 @@ h1 {
     font-size: 13px;
     color: darkslategray;
     line-height: 25px;
+}
+
+.tech-used {
+    font-weight: 500;
 }
 
 .project-link {
