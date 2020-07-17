@@ -205,7 +205,7 @@ h1 {
 #projects {
     display: none;
     flex-direction: column;
-    height:446px;
+    height:706px;
     width: 100%;
     margin-top: 20px;
     justify-content: space-evenly;
@@ -220,6 +220,7 @@ h1 {
 .projects-item {
     height: 210px;
     width: 50%;
+    max-width: 588px;
     border: 1px solid lightgray;
     margin: 5px;
     box-shadow: 0px 10px 10px lightgray; 
@@ -267,6 +268,16 @@ h1 {
     color: white;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+#cw-thumbnail {
+    display: block;
+    height: 210px;
+    width: 180px;
+    margin: auto 20px;
+    background-image: url(./images/cw_thumbnail.png);
+    background-position: center;
+    background-size: cover;
 }
 
 #toolshed-thumbnail {

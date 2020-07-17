@@ -25,6 +25,7 @@ document.querySelector(`#about-tab`).addEventListener(`click`, () => {
 
     document.querySelector(`#about`).style.display = `block`;
     document.querySelector(`#about-tab`).className = `left-tab-active`
+    document.querySelector(`#card`).style.height = `500px`
 })
 
 document.querySelector(`#skills-tab`).addEventListener(`click`, () => { 
@@ -37,6 +38,7 @@ document.querySelector(`#skills-tab`).addEventListener(`click`, () => {
     
     document.querySelector(`#skills`).style.display = `flex`;
     document.querySelector(`#skills-tab`).className = `middle-tab-active`
+    document.querySelector(`#card`).style.height = `500px`
 })
 
  document.querySelector(`#projects-tab`).addEventListener(`click`, () => { 
@@ -62,6 +64,15 @@ document.querySelector(`#skills-tab`).addEventListener(`click`, () => {
     
     document.querySelector(`#contact`).style.display = `flex`;
     document.querySelector(`#contact-tab`).className = `right-tab-active`
+    document.querySelector(`#card`).style.height = `500px`
+})
+
+document.querySelector(`#cw-card`).addEventListener(`mouseover`, () => { 
+    document.querySelector(`#cw-link`).style.display = `flex`; 
+})
+
+document.querySelector(`#cw-card`).addEventListener(`mouseout`, () => { 
+    document.querySelector(`#cw-link`).style.display = `none`; 
 })
 
 document.querySelector(`#ts-card`).addEventListener(`mouseover`, () => { 
